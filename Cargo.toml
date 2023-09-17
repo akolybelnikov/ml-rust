@@ -9,3 +9,7 @@ edition = "2021"
 rusty-machine = "0.5.4"
 rand = "0.8.5"
 rand_distr = "0.4.3"
+csv = { version = "1.2.2", features = [] }
+toml = { version = "0.8.0", features = [] }
+serde = { version = "1.0.188", features = ["derive"] }
+structopt = { version = "0.3.26", features = [] }
