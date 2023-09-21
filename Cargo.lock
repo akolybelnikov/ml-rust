@@ -35,10 +35,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a"
 
 [[package]]
+name = "byteorder"
+version = "1.4.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "14c189c53d098945499cdfa7ecc63567cf3886b3332b312a5b4585d8d3a6a610"
+
+[[package]]
 name = "cat-breeds-k-means"
 version = "0.1.0"
 dependencies = [
  "csv",
+ "gnuplot",
  "rand 0.8.5",
  "rand_distr",
  "rusty-machine",
@@ -110,6 +117,15 @@ dependencies = [
  "cfg-if",
  "libc",
  "wasi",
+]
+
+[[package]]
+name = "gnuplot"
+version = "0.0.39"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2529467b8aef62bdf0c97dc984ca33244b84f8b5eb9517328f24bbb9afa0fb31"
+dependencies = [
+ "byteorder",
 ]
 
 [[package]]

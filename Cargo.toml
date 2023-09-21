@@ -13,3 +13,4 @@ csv = { version = "1.2.2", features = [] }
 toml = { version = "0.8.0", features = [] }
 serde = { version = "1.0.188", features = ["derive"] }
 structopt = { version = "0.3.26", features = [] }
+gnuplot = "0.0.39"
