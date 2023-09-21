@@ -1,0 +1,6 @@
+centroids = [
+    61.0, 99.5, # German Shepherd
+    22.5, 40.5, # Persian cat
+]
+noise = 1.8
+samples_per_centroid = 2000
